@@ -27,7 +27,7 @@ public class SomatorioRecursivo {
       public static void main(String[] args) {
 	
 	Scanner in = new Scanner(System.in);
-    System.out.println("-------FATORIAL RECUSSIVO-----------");
+    System.out.println("-------FATORIAL RECURSIVO-----------");
     System.out.println("------- Digite um numero !----------");
     int exa = in.nextInt();
     
