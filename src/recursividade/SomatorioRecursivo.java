@@ -12,7 +12,7 @@ public class SomatorioRecursivo {
 
 	    if(n < 1) 
 	    {
-	    	System.out.printf("fim \n");
+	    	System.out.print("fim \n");
 			r = 0;
 	    }
 	    else 
@@ -27,11 +27,11 @@ public class SomatorioRecursivo {
       public static void main(String[] args) {
 	
 	Scanner in = new Scanner(System.in);
-    System.out.println("-------FATORIAL RECURSIVO-----------");
+    System.out.println("-------SOMATÓRIO RECURSIVO-----------");
     System.out.println("------- Digite um numero !----------");
     int exa = in.nextInt();
     
-    System.out.printf("Somatorioa = %d", somatorio(exa));
+    System.out.printf("Somatorio = %d", somatorio(exa));
     
 	}
 }
