@@ -1,10 +1,9 @@
 package recursividade;
-import java.util.Scanner;
 public class FatorialNaoRecursivo {
 
-	public static <String> void main(String[] args) {
+	public static void main(String[] args) {
 		 long fat = fatnotrec(15);                 // chamada da função
-		System.out.println("Fatorial = "+ fat);    // imprimir função
+		 System.out.println("Fatorial: "+ fat);         // imprimir função
 		
 	}
 public static int fatnotrec(int num) {
